@@ -1,0 +1,115 @@
+* {
+  z-index: 1;
+  opacity: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  color: white;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  font-size: 34px;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 25px;
+}
+
+#weather {
+  margin: 5px 5px 0 0;
+  height: 50px;
+  width: auto;
+  text-align: right;
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-empty {
+  height: 30vh;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+#login-form h1 {
+  font-size: 35px;
+  margin-top: 0;
+}
+
+.main-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#clock,
+#greeting {
+  text-align: center;
+  margin: 0;
+}
+
+#clock {
+  font-size: 120px;
+}
+
+#greeting {
+  font-size: 60px;
+}
+
+#todo-btn {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 0;
+  color: white;
+  opacity: 20%;
+  background-color: transparent;
+}
+
+::placeholder {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+#background-img {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
